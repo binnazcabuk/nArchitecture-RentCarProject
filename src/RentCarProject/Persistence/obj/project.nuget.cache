@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "iZyshGZak7BaTMPpScE+EB3Ymaleqa82235ff8DrOjcKRrbWuytOJXsL8NHDkrCiW/tLPCgBxyiZDwal95pkbw==",
+  "dgSpecHash": "9w4nZMVW0PIirblCIQ9Lov17l2jbAF/CYqGE8Tdx26U5QRPhfKqXuxBiFTz2ZNmdn9m9kdGmclkJKpJqH8+xzA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Teknar\\source\\repos\\nArchitecture-RentCarProject\\src\\RentCarProject\\Persistence\\Persistence.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Teknar\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Teknar\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Teknar\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
