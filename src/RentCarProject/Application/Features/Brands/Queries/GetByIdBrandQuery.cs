@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Application.Features.Brands.Queries
 {
-    public class GetByIdBrandQuery:IRequest<BrandGetByIdDto>
+    public class GetByIdBrandQuery : IRequest<BrandGetByIdDto>
     {
         public int Id { get; set; }
         public class GetByIdBrandQueryHandler : IRequestHandler<GetByIdBrandQuery, BrandGetByIdDto>
@@ -27,12 +27,12 @@ namespace Application.Features.Brands.Queries
 
             public async Task<BrandGetByIdDto> Handle(GetByIdBrandQuery request, CancellationToken cancellationToken)
             {
-               Brand? brand =  await _brandRepository.GetAsync(b=>b.Id==request.Id);
+                Brand? brand = await _brandRepository.GetAsync(b => b.Id==request.Id);
 
-               _brandBusinessRules.BrandShouldExistWhenRequested(brand);
+                _brandBusinessRules.BrandShouldExistWhenRequested(brand);
 
-               BrandGetByIdDto brandGetByIdDto = _mapper.Map<BrandGetByIdDto>(brand);
-               return brandGetByIdDto;
+                BrandGetByIdDto brandGetByIdDto = _mapper.Map<BrandGetByIdDto>(brand);
+                return brandGetByIdDto;
             }
         }
     }

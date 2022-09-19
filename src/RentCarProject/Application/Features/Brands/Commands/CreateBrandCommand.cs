@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Application.Features.Brands.Commands
 {
-    public  class CreateBrandCommand : IRequest<CreatedBrandDto>
+    public class CreateBrandCommand : IRequest<CreatedBrandDto>
     {
         public string Name { get; set; }
 
@@ -35,7 +35,6 @@ namespace Application.Features.Brands.Commands
                 CreatedBrandDto createdBrandDto = _mapper.Map<CreatedBrandDto>(createdBrand);
 
                 return createdBrandDto;
-
             }
         }
     }
