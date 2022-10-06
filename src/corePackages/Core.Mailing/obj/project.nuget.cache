@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "TN4ebOhwz1XX4B9UPGY1E8cqAHEriS6hTEdh9zIjZGSUOpVty2pJV1muemH8fyjMZ6Vh/SkOEoFpFjRrC2aTHw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Teknar\\source\\repos\\nArchitecture-RentCarProject\\src\\corePackages\\Core.Mailing\\Core.Mailing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Teknar\\.nuget\\packages\\mailkit\\3.1.1\\mailkit.3.1.1.nupkg.sha512",
+    "C:\\Users\\Teknar\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Teknar\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
+    "C:\\Users\\Teknar\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Teknar\\.nuget\\packages\\mimekit\\3.1.1\\mimekit.3.1.1.nupkg.sha512",
+    "C:\\Users\\Teknar\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
+    "C:\\Users\\Teknar\\.nuget\\packages\\system.formats.asn1\\6.0.0\\system.formats.asn1.6.0.0.nupkg.sha512",
+    "C:\\Users\\Teknar\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Teknar\\.nuget\\packages\\system.security.cryptography.pkcs\\6.0.0\\system.security.cryptography.pkcs.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

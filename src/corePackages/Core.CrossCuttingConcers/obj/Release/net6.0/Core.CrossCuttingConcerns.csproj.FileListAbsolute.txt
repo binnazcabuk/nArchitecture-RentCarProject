@@ -1,0 +1,12 @@
+C:\Users\Teknar\Desktop\nArchitecture-master\src\corePackages\Core.CrossCuttingConcers\bin\Release\net6.0\Core.CrossCuttingConcerns.deps.json
+C:\Users\Teknar\Desktop\nArchitecture-master\src\corePackages\Core.CrossCuttingConcers\bin\Release\net6.0\Core.CrossCuttingConcerns.dll
+C:\Users\Teknar\Desktop\nArchitecture-master\src\corePackages\Core.CrossCuttingConcers\bin\Release\net6.0\Core.CrossCuttingConcerns.pdb
+C:\Users\Teknar\Desktop\nArchitecture-master\src\corePackages\Core.CrossCuttingConcers\obj\Release\net6.0\Core.CrossCuttingConcerns.csproj.AssemblyReference.cache
+C:\Users\Teknar\Desktop\nArchitecture-master\src\corePackages\Core.CrossCuttingConcers\obj\Release\net6.0\Core.CrossCuttingConcerns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Teknar\Desktop\nArchitecture-master\src\corePackages\Core.CrossCuttingConcers\obj\Release\net6.0\Core.CrossCuttingConcerns.AssemblyInfoInputs.cache
+C:\Users\Teknar\Desktop\nArchitecture-master\src\corePackages\Core.CrossCuttingConcers\obj\Release\net6.0\Core.CrossCuttingConcerns.AssemblyInfo.cs
+C:\Users\Teknar\Desktop\nArchitecture-master\src\corePackages\Core.CrossCuttingConcers\obj\Release\net6.0\Core.CrossCuttingConcerns.csproj.CoreCompileInputs.cache
+C:\Users\Teknar\Desktop\nArchitecture-master\src\corePackages\Core.CrossCuttingConcers\obj\Release\net6.0\Core.CrossCuttingConcerns.dll
+C:\Users\Teknar\Desktop\nArchitecture-master\src\corePackages\Core.CrossCuttingConcers\obj\Release\net6.0\refint\Core.CrossCuttingConcerns.dll
+C:\Users\Teknar\Desktop\nArchitecture-master\src\corePackages\Core.CrossCuttingConcers\obj\Release\net6.0\Core.CrossCuttingConcerns.pdb
+C:\Users\Teknar\Desktop\nArchitecture-master\src\corePackages\Core.CrossCuttingConcers\obj\Release\net6.0\ref\Core.CrossCuttingConcerns.dll
