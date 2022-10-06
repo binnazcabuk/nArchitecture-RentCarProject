@@ -3,7 +3,6 @@ using Application.Features.Models.Queries.GetListModel;
 using Application.Features.Models.Queries.GetListModelByDynamic;
 using Core.Application.Requests;
 using Core.Persistence.Dynamic;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers
@@ -18,7 +17,6 @@ namespace WebAPI.Controllers
             GetListModelQuery getListModelQuery = new GetListModelQuery { PageRequest = pageRequest };
             ModelListModel result = await Mediator.Send(getListModelQuery);
             return Ok(result);
-
         }
 
         [HttpPost("GetList/ByDynamic")]
@@ -27,7 +25,6 @@ namespace WebAPI.Controllers
             GetListModelByDynamicQuery getListByDynamicModelQuery = new GetListModelByDynamicQuery { PageRequest = pageRequest, Dynamic = dynamic };
             ModelListModel result = await Mediator.Send(getListByDynamicModelQuery);
             return Ok(result);
-
         }
     }
 }

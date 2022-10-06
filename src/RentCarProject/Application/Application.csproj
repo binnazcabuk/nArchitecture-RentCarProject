@@ -7,10 +7,18 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Folder Include="Features\Brands\Constants\" />
-		<Folder Include="Features\Models\Commands\" />
-		<Folder Include="Features\Models\Constants\" />
-		<Folder Include="Features\Models\Rules\" />
+	  <Compile Remove="Features\Brands\Constants\**" />
+	  <Compile Remove="Features\Models\Commands\**" />
+	  <Compile Remove="Features\Models\Constants\**" />
+	  <Compile Remove="Features\Models\Rules\**" />
+	  <EmbeddedResource Remove="Features\Brands\Constants\**" />
+	  <EmbeddedResource Remove="Features\Models\Commands\**" />
+	  <EmbeddedResource Remove="Features\Models\Constants\**" />
+	  <EmbeddedResource Remove="Features\Models\Rules\**" />
+	  <None Remove="Features\Brands\Constants\**" />
+	  <None Remove="Features\Models\Commands\**" />
+	  <None Remove="Features\Models\Constants\**" />
+	  <None Remove="Features\Models\Rules\**" />
 	</ItemGroup>
 
 	<ItemGroup>

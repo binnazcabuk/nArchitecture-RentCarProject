@@ -7,11 +7,6 @@ using Core.Persistence.Paging;
 using Domain.Entities;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.Features.Models.Queries.GetListModelByDynamic
 {
@@ -22,7 +17,6 @@ namespace Application.Features.Models.Queries.GetListModelByDynamic
 
         public class GetListModelByDynamicQueryHandler : IRequestHandler<GetListModelByDynamicQuery, ModelListModel>
         {
-
             private readonly IMapper _mapper;
             private readonly IModelRepository _modelRepository;
 
@@ -35,7 +29,7 @@ namespace Application.Features.Models.Queries.GetListModelByDynamic
             public async Task<ModelListModel> Handle(GetListModelByDynamicQuery request, CancellationToken cancellationToken)
             {
                 //car models
-                IPaginate<Model> models = await _modelRepository.GetListByDynamicAsync(request.Dynamic,include:
+                IPaginate<Model> models = await _modelRepository.GetListByDynamicAsync(request.Dynamic, include:
                                               m => m.Include(c => c.Brand),
                                               index: request.PageRequest.Page,
                                               size: request.PageRequest.PageSize

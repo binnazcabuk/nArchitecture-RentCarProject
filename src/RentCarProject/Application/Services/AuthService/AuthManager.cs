@@ -3,11 +3,6 @@ using Core.Persistence.Paging;
 using Core.Security.Entities;
 using Core.Security.JWT;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.Services.AuthService
 {
@@ -47,7 +42,7 @@ namespace Application.Services.AuthService
 
         public async Task<RefreshToken> CreateRefreshToken(User user, string ipAddress)
         {
-            RefreshToken refreshToken =  _tokenHelper.CreateRefreshToken(user, ipAddress);
+            RefreshToken refreshToken = _tokenHelper.CreateRefreshToken(user, ipAddress);
             return await Task.FromResult(refreshToken);
         }
     }

@@ -2,11 +2,6 @@
 using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Persistence.Contexts
 {
@@ -40,7 +35,7 @@ namespace Persistence.Contexts
                 a.ToTable("Brands").HasKey(k => k.Id);
                 a.Property(p => p.Id).HasColumnName("Id");
                 a.Property(p => p.Name).HasColumnName("Name");
-                a.HasMany(p=>p.Models);
+                a.HasMany(p => p.Models);
             });
 
             modelBuilder.Entity<Model>(a =>
@@ -64,7 +59,7 @@ namespace Persistence.Contexts
                     , new(3, 2, "A180", 1000, "") };
             modelBuilder.Entity<Model>().HasData(modelEntitySeeds);
 
-           
+
         }
     }
 }

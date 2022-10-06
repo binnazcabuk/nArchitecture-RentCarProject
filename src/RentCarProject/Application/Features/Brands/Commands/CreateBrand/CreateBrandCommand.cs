@@ -4,18 +4,12 @@ using Application.Services.Repositories;
 using AutoMapper;
 using Domain.Entities;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.Features.Brands.Commands.CreateBrand
 {
-    public partial class CreateBrandCommand:IRequest<CreatedBrandDto>
+    public partial class CreateBrandCommand : IRequest<CreatedBrandDto>
     {
         public string Name { get; set; }
-
         public class CreateBrandCommandHandler : IRequestHandler<CreateBrandCommand, CreatedBrandDto>
         {
             private readonly IBrandRepository _brandRepository;
@@ -28,7 +22,6 @@ namespace Application.Features.Brands.Commands.CreateBrand
                 _mapper = mapper;
                 _brandBusinessRules = brandBusinessRules;
             }
-
             public async Task<CreatedBrandDto> Handle(CreateBrandCommand request, CancellationToken cancellationToken)
             {
                 await _brandBusinessRules.BrandNameCanNotBeDuplicatedWhenInserted(request.Name);
@@ -38,7 +31,6 @@ namespace Application.Features.Brands.Commands.CreateBrand
                 CreatedBrandDto createdBrandDto = _mapper.Map<CreatedBrandDto>(createdBrand);
 
                 return createdBrandDto;
-
             }
         }
     }
